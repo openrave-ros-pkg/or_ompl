@@ -10,7 +10,7 @@ catkin_package(
 find_package(Boost REQUIRED COMPONENTS system)
 find_package(OMPL REQUIRED)
 find_package(TinyXML REQUIRED)
-find_package(OpenRAVE REQUIRED)
+find_package(openrave REQUIRED)
 find_package(Eigen REQUIRED)
 
 include_directories(
